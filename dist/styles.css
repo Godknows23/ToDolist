@@ -20,12 +20,13 @@
   }
   
   body {
-    background-color: var(--primary-light);
+    background-color: black;
     color: var(--primary-dark);
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     /* footer support */
     margin-bottom: 48px;
+  
   }
   
   button,
@@ -69,15 +70,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: greenyellow;
+    
   }
-  
   .fa-check-double {
     font-size: 40px;
   }
   
+  .i
+  {
+    height: 100px;
+    width: 100px;
+  }
+  
   .page-name {
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: green;
   }
   
   .button-open-nav {
@@ -104,7 +113,7 @@
     width: 300px;
     min-width: 250px;
     padding: 20px;
-    background-color: var(--secondary-light);
+    background-color: black;
   }
   
   .nav.active {
@@ -112,31 +121,39 @@
   }
   
   .button-default-project {
-    background-color: var(--secondary-light);
+    background-color: lightblue;
     text-align: left;
   }
   
   .fa-inbox {
     margin-right: 6px;
+    text-decoration-color: greenyellow;
   }
   
+.button-default-project
+{
+  text-decoration-color: #99dd99;
+}
+
+
   .projects-title {
     padding: 10px;
     margin-top: 10px;
+    color: #99dd99;
   }
   
   .button-project {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--secondary-light);
+    background-color: lime;
     text-align: left;
   }
   
   .button-add-project {
     margin-top: 10px;
     margin-left: 2px;
-    background-color: var(--secondary-light);
+    background-color: limegreen;
     text-align: left;
   }
   
@@ -146,7 +163,7 @@
   
   .button-project.active,
   .button-default-project.active {
-    background-color: #ccc;
+    background-color:lightblue;
     font-weight: bold;
   }
   
@@ -198,8 +215,8 @@
   }
   
   .button-cancel-project-popup {
-    border: 1px solid #eeadad;
-    background-color: #ffbebe;
+    border: 1px solid maroon;
+    background-color: magenta;
     font-weight: bold;
   }
   
@@ -247,6 +264,7 @@
   
   .task-content {
     cursor: pointer;
+    text-emphasis-color: red;
   }
   
   .task-content.active {
@@ -270,6 +288,7 @@
   .right-task-panel {
     display: flex;
     align-items: center;
+    color: #a6f0a6;
   }
   
   .due-date {
@@ -375,16 +394,12 @@
     gap: 10px;
     width: 100%;
     padding: 10px;
-    background-color: var(--primary-dark);
+    background-color:black;
     color: var(--primary-light);
     font-size: 18px;
   }
   
-  .fa-github {
-    color: var(--primary-light);
-    font-size: 22px;
-    transition: transform 0.3s ease-in-out;
-  }
+  
   
   .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
