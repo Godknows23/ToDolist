@@ -127,12 +127,13 @@
   
   .fa-inbox {
     margin-right: 6px;
-    text-decoration-color: greenyellow;
+    text-decoration-color: rgb(207, 31, 45);
   }
   
-.button-default-project
+.fas-fa-inbox
 {
-  text-decoration-color: #99dd99;
+  color: red;
+  
 }
 
 
